@@ -10,7 +10,7 @@ const (
 	ConnStrErr = "invalid connection string, load envs"
 	ConnectionString = "CONNECTION_STRING"
 	DbConnectionSuccess = "db connection succeeded"
-	LoadEnvFromPath = "/home/rdkvx/documents/_projects/KollectionManager/.env"
+	LoadEnvFromPath = ".env"
 	Port            = ":3000"
 	ServerStatus    = "Running"
 	FilterByName = "name =?"

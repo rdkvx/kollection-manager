@@ -22,7 +22,8 @@ func LoadEnvFromPath(envFilePath string) {
 
 func main() {
 	//carrega as envs em modo debug
-	LoadEnvFromPath(utils.LoadEnvFromPath)
+	//LoadEnvFromPath(utils.LoadEnvFromPath)
+	LoadEnvFromPath("/vault/secrets/dotenv")
 	app := fiber.New()
 
 	newDB, err := db.Connect()
