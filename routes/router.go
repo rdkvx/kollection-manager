@@ -11,5 +11,6 @@ func Router(app *fiber.App, db *gorm.DB) error {
 	DeveloperRoutes(app, db)
 	ManufacturerRoutes(app, db)
 	GameRoutes(app, db)
+	Healthcheck(app)
 	return nil
 }
