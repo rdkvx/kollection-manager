@@ -90,6 +90,7 @@ jobs:
       GKE_LOCATION: ${{ secrets.GKE_LOCATION }}
       APP_PATH: apps/kollection-manager
       GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+      VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
 
     steps:
       - name: Download Terraform repo
