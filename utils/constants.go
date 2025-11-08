@@ -11,7 +11,7 @@ const (
 	ConnectionString = "CONNECTION_STRING"
 	DbConnectionSuccess = "db connection succeeded"
 	LoadEnvFromPath = ".env"
-	Port            = ":3000"
+	Port            = "8080"
 	ServerStatus    = "Running"
 	FilterByName = "name =?"
 	FilterByDeleted = "deleted = ?"
